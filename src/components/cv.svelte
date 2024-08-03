@@ -36,6 +36,12 @@
 </Layout>
 
 <style>
+  .container {
+    margin-top: 3rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
   ul {
     list-style: none;
     margin: 0;
