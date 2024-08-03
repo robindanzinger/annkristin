@@ -1,5 +1,5 @@
 <script>
-  const base = 'annkristin/'
+  const base = ''
   
 </script>
 <div class="construction">currently under construction</div>
