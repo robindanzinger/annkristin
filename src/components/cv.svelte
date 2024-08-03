@@ -37,7 +37,7 @@
 
 <style>
   .container {
-    margin-top: 3rem;
+    margin: 2rem;
   }
   h1 {
     font-size: 1rem;
