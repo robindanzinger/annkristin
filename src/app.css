@@ -1,0 +1,11 @@
+:root {
+  --primary: #f80000;
+}
+* {
+  font-family: Arial, sans-serif;
+  color: var(--primary);
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
