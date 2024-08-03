@@ -33,13 +33,6 @@
     font-weight: 700;
     font-style: normal;
   }
-  .construction {
-    position: fixed;
-    left: calc(50vw - 70px);
-    top: 50vh;
-    font-size: 0.7rem;
-    z-index: 100;
-  }
   .header {
     display: flex;
     flex-flow: row nowrap;
@@ -71,7 +64,7 @@
   .main {
     display: flex;
     justify-content: center;
-    min-height: calc(100vh - 120px);
+    min-height: calc(100vh - 140px);
   }
 
   .footer {
