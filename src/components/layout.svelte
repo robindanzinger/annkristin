@@ -102,6 +102,9 @@
       .header {
          flex-flow: column;
       }
+      .main {
+        min-height: calc(100vh - 160px);
+      }
   }
 
 </style>
