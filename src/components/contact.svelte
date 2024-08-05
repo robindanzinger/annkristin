@@ -20,11 +20,19 @@
   }
 
 h1 {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
+  font-weight: normal;
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 div {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 </style>

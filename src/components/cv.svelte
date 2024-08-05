@@ -40,7 +40,7 @@
     margin: 2rem;
   }
   h1 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   ul {
     list-style: none;
@@ -49,6 +49,7 @@
   }
   li {
     margin-top: 0.8rem;
+    font-size: 0.9rem;
   }
 
 </style>
