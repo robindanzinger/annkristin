@@ -19,7 +19,8 @@
 <ul>
   {#each works as work}
   <li>
-    <div class="imgcontainer">
+    <div class="imgcontainer" on:click={(evt) => {
+         evt.target.scrollIntoView?.({behavior: 'smooth'})}}>
       <img src={work.imgSrc} height="{work.ts.split('x')[1]}" width="{work.ts.split('x')[0]}">
     <div class="box transparent_box" />
     <div class="box description">
