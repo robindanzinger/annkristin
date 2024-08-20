@@ -41,6 +41,7 @@
   }
   h1 {
     font-size: 0.9rem;
+    font-weight: 400;
   }
   ul {
     list-style: none;
