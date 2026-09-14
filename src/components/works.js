@@ -59,7 +59,7 @@ export default [
     ts: '1772x1181',
   }, {
     name: 'Carpet (CLAUSTROPHOBIA)',
-    material: 'Latex SeideHasendraht Reispapier',
+    material: 'Latex Seide Hasendraht Reispapier',
     size: '300x100cm',
     date: '2019',
     ts: '1000x666'
@@ -69,6 +69,9 @@ export default [
     size: 'Je 47x47cm',
     date: '2019',
     ts: '1000x667',
+  }, {
+    name: 'I blow up (ALTAR) + Carpet (CLAUSTROPHOBIA)',
+    ts: '1000x666',
   }, {
     name: 'In between two deaths',
     material: 'Latex Seide',
@@ -106,13 +109,15 @@ export default [
     date: '2018',
     ts: '1920x1280',
   }, {
-    name: 'Cubes (I)',
+    title: 'Cubes',
+    name: 'Cubes_1',
     material: 'Latex',
     size: '25x150x50cm',
     date: '2017',
     ts: '1000x666'
   }, {
-    name: 'Cubes (II)',
+    title: 'Cubes',
+    name: 'Cubes_2',
     material: 'Latex',
     size: '25x150x50cm',
     date: '2017',
