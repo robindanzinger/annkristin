@@ -30,13 +30,19 @@ export default [
     date: "2024",
     ts: "2553x1915",
   },
-
   {
     name: "Maria",
     material: "Öl und Acryl auf Seide",
     size: "90x120cm",
     date: "2023",
     ts: "1904x2538",
+  },
+  {
+    name: "Prayer",
+    size: "90x120cm",
+    material: "Öl und Acryl auf Seide",
+    date: "2023",
+    ts: "2135x2846",
   },
   {
     name: "Pummeluff",
@@ -46,13 +52,74 @@ export default [
     ts: "2630x3506",
   },
   {
-    name: "Prayer",
-    size: "90x120cm",
-    material: "Öl und Acryl auf Seide",
-    date: "2020",
-    ts: "2135x2846",
-  },
-];
+    name: 'I blow up (ALTAR)',
+    material: 'Latex Seide Ösen',
+    size: 'Je 80x140cm',
+    date: '2019',
+    ts: '1772x1181',
+  }, {
+    name: 'Carpet (CLAUSTROPHOBIA)',
+    material: 'Latex SeideHasendraht Reispapier',
+    size: '300x100cm',
+    date: '2019',
+    ts: '1000x666'
+  }, {
+    name: 'Claustrophobia II (BEDROOM FLOOR, KITCHEN FLOOR, BATHROOM FLOOR)',
+    material: 'Latex',
+    size: 'Je 47x47cm',
+    date: '2019',
+    ts: '1000x667',
+  }, {
+    name: 'In between two deaths',
+    material: 'Latex Seide',
+    size: '120x140cm',
+    date: '2019',
+    ts: '800x1200'
+  }, {
+    name: 'Vulgar vagueness',
+    material: 'Latex Acryl',
+    size: '110x40cm',
+    date: '2019',
+    ts: '1920x1280',
+  }, {
+    name: 'Noli me tangere (FELT)',
+    material: 'Filz Wachs Latex Ösen',
+    size: 'Je 100x100cm',
+    date: '2018',
+    ts: '1000x666',
+  }, {
+    name: 'Ladder (CONTINGENCY)',
+    material: 'Seide Latex Seil',
+    size: '600x20cm',
+    date: '2018',
+    ts: '1334x2001'
+  }, {
+    name: 'Window',
+    material: 'Latex Kleiderbügel',
+    size: '120x30cm',
+    date: '2018',
+    ts: '800x1200'
+  }, {
+    name: 'Särge (GESTELL)',
+    material: 'Latex Draht Mullbinde',
+    size: 'Je 60x40x30cm',
+    date: '2018',
+    ts: '1920x1280',
+  }, {
+    name: 'Cubes (I)',
+    material: 'Latex',
+    size: '25x150x50cm',
+    date: '2017',
+    ts: '1000x666'
+  }, {
+    name: 'Cubes (II)',
+    material: 'Latex',
+    size: '25x150x50cm',
+    date: '2017',
+    ts: '1920x1280'
+  }
+]
+
 
 //export default [
 //  {

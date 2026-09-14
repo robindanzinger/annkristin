@@ -22,13 +22,13 @@
     <div class="imgcontainer" on:click={(evt) => {
          evt.target.scrollIntoView?.({behavior: 'smooth'})}}>
       <img src={work.imgSrc} height="{work.ts.split('x')[1]}" width="{work.ts.split('x')[0]}">
-    <div class="box transparent_box" />
-    <div class="box description">
-      <h3>{work.name}</h3>
-      <div>{work.material}</div>
-      <div>{work.size}</div>
-      <div>{work.date}</div>
-    </div>
+      <div class="box transparent_box" on:click={(evt) => {evt.stopPropagation()}} />
+      <div class="box description" on:click={(evt) => {evt.stopPropagation()}} >
+        <h3>{work.name}</h3>
+        <div>{work.material}</div>
+        <div>{work.size}</div>
+        <div>{work.date}</div>
+      </div>
     </div>
   </li>
   {/each}

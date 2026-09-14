@@ -7,9 +7,6 @@ import { svelte, vitePreprocess } from "@sveltejs/vite-plugin-svelte"
 export default defineConfig(({ command, mode }) => {
   return {
     plugins: [svelte({preprocess: vitePreprocess()})],
-    root: ".garden",
-    assetsInclude: ['**/*.md'],
-    publicDir: "../public",
     
     resolve: {
       alias: [
@@ -21,14 +18,6 @@ export default defineConfig(({ command, mode }) => {
     },
     
     
-    build: {
-      rollupOptions: {
-        input: {
-          app: ".garden/index.html",
-          frame: ".garden/frame.html",
-        },
-      },
-    },
   };
 });
   
