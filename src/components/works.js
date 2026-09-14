@@ -64,14 +64,14 @@ export default [
     date: '2019',
     ts: '1000x666'
   }, {
+    name: 'I blow up (ALTAR) + Carpet (CLAUSTROPHOBIA)',
+    ts: '1000x666',
+  }, {
     name: 'Claustrophobia II (BEDROOM FLOOR, KITCHEN FLOOR, BATHROOM FLOOR)',
     material: 'Latex',
     size: 'Je 47x47cm',
     date: '2019',
     ts: '1000x667',
-  }, {
-    name: 'I blow up (ALTAR) + Carpet (CLAUSTROPHOBIA)',
-    ts: '1000x666',
   }, {
     name: 'In between two deaths',
     material: 'Latex Seide',
